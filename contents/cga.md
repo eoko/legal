@@ -1,4 +1,4 @@
-#Conditions Générales d’achat de {{company.name}} applicables à compter du {{cga.start_date}}
+# Conditions Générales d’achat de {{company.name}} applicables à compter du {{cga.start_date}}
 
 **ENTRE LES SOUSSIGNES **
 
@@ -22,7 +22,7 @@ Ci-après « **_le Sous-traitant_** »,
 
 d'autre part,
 
-##Article 1. Définitions
+## Article 1. Définitions
 
 **Livrable :** Eléments graphiques, éditoriaux ou autres dont la réalisation est
 sous-traité par {{company.name}} au Sous-traitant en vue de sa livraison au

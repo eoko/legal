@@ -63,7 +63,7 @@ Le rôle du développeur est :
 * De s'assurer que quelles que soient les modifications futures, cette histoire soit TOUJOURS réalisable (le test)
 * D'être sûr de bien comprendre les hypothèses (le contexte)
 
-Pour le développement, le plus simple est d'utiliser gherkin pour la syntaxe des stories (https://github.com/cucumber/cucumber/wiki)
+Pour le développement, le plus simple est d'utiliser [gherkin pour la syntaxe des stories](http://docs.behat.org/en/v2.5/guides/1.gherkin.html)
 
 ## Première étape : savoir de quoi on parle
 
@@ -89,7 +89,7 @@ Poser la question pourquoi récursivement 5 fois (au maximum) jusqu'à avoir une
 
 # Exemple d'histoire utilisateurs : on se propose de gérer un chenil (des chiens, des naissances, etc.)
 
-    @@@ cucumber
+    @@@ behat
     Feature: handle a kenel
       In order to handle our kenel
       As a dog trainer
@@ -102,11 +102,11 @@ Poser la question pourquoi récursivement 5 fois (au maximum) jusqu'à avoir une
 * assertion : le chenil devrait avoir 3 habitants
 
 
-## En cucumber on va écrire ça de la façon suivante :
+## En behat on va écrire ça de la façon suivante :
 
-    @@@ cucumber
+    @@@ behat
     Scenario:
-      Given 1 dog and 1 bitch in a kennel
+      Given 1 dog and 1 femal in a kennel
       When the 2 dogs have a child
       Then the kennel should have 3 inhabitants
 
@@ -116,18 +116,18 @@ En effet, nous ne sommes pas une communauté de dresseurs, et nous gagnerions
 plus à travailler sur un projet qui pourrait nous être utile...
 
 
-## Passons donc à un VRAI problème que nous avons dans notre communauté ruby parisienne
+## Passons donc à un VRAI problème que nous avons dans notre vie lyonnaise
 
-# Exemple "vie réelle" : un espace permettant de proposer des conférences pour les évènements ruby !
+# Exemple "vie réelle" : un espace permettant de proposer des conférences pour les évènements php !
 
 
 ## Soit 2 personnes (dont une morale)
 
-1. product owner => Thibaut Assus
-2. developer => Milesrock
+1. product owner => Muriel VANDEN HEEDE
+2. developer => Romain DARY
 
 
-## Méthode de travail avec cucumber et pivotal (1/2)
+## Méthode de travail
 
 1. le product owner propose une user story au développeur
 2. le développeur lui demande quelle est la valeur ajoutée de cette fonctionnalité
@@ -143,7 +143,7 @@ plus à travailler sur un projet qui pourrait nous être utile...
 13. la story est finie et peut être incluse dans la prochaine release.
 
 
-## Méthode de travail associée à cucumber passe par 3 étapes de développement : Red, Green et Refactor
+## Méthode de travail associée à behat passe par 3 étapes de développement : Red, Green et Refactor
 
 * Quand on lance notre premier test, on commence par avoir du jaune, le jaune
   correspond à des étapes non définies
@@ -165,13 +165,3 @@ On factorise le code pour supprimer la duplication, et on essaye le plus
 possible d'avoir du code lisible, propre et réutilisable.
 
 ## On peut alors passer à la feature suivante.
-
-Le résultat de ce travail a servi à créer un projet actuellement utilisé en production :
-[http://www.rubyparis.org](http://www.rubyparis.org)
-
-
-# Ressources
-
-* Rspec, cucumber book : [http://pragprog.com/book/achbd/the-rspec-book](http://pragprog.com/book/achbd/the-rspec-book)
-* Le wiki du github de cucumber [https://github.com/cucumber/cucumber/wiki](https://github.com/cucumber/cucumber/wiki)
-* [http://cukes.info](http://cukes.info)

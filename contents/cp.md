@@ -50,6 +50,8 @@ accepté :
 
 &#9723; les _Conditions générales de vente_ de {{company.name}}
 
+&#9723; le _Présent contrat_ de {{company.name}}
+
 Fait à ........................................ , le ...... /...... /...........
 En autant d’exemplaires originaux que de parties.
 Faire précéder la signature de la mention « Lu et approuvé »

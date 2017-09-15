@@ -1,0 +1,43 @@
+{
+  "company": {
+    "name": "EOKO",
+    "legal_structure": "SAS",
+    "capital": "1000.000",
+    "rcs_city": "LYON",
+    "rcs_number": "790 552 152",
+    "address": "32 rue de la thibaudière",
+    "holder_name": "Muriel VANDEN HEEDE",
+    "holder_role": "Présidente",
+    "author": "Romain DARY",
+    "url": "https://eoko.fr",
+    "url_nice": "eoko.fr",
+    "hourly_rate": 60,
+    "hourly_rate_legend": "euros HT / heures"
+  },
+  "client": {
+    "description": "La société MesJambes représentée par Gaël Guillet,"
+  },
+  "contract": {
+    "duration": "X",
+    "duration_unit": "heures",
+    "prepayment_novat": null,
+    "prepayment_vat": null
+  },
+  "support": {
+    "service_access": 80,
+    "monthly_rate": 80,
+    "hourly_rate": 60,
+    "min": {
+      "monthly_hours": 2
+    },
+    "permanence_telephonic": {
+      "working_day": 0
+    }
+  },
+  "cgv": {
+    "start_date": "1er janvier 2013"
+  },
+  "cga": {
+    "start_date": "1er janvier 2013"
+  }
+}

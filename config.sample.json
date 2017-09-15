@@ -1,32 +1,32 @@
 {
   "company": {
-    "name": "_NomSociété_"
-  , "legal_structure": "_StructureJuridiqueSociété_"
-  , "capital": "_CapitalSociété"
-  , "rcs_city": "_VilleRCSSociété"
-  , "rcs_number": "_RCS XXX XXX XXX XXX_"
-  , "address": "_AdresseSiegeSocialSociété_"
-  , "holder_name": "_NomReprésentantLégal_"
-  , "holder_role": "_QualitéReprésentantLégal_"
-  , "author": "_NomAuteurDuCode_"
-  , "url": "http://url-nomsociete.com"
-  , "url_nice": "_url-NomSociété.com_"
-  , "hourly_rate": 130
-  , "hourly_rate_legend": "euros HT / heures"
-  }
-, "client": {
+    "name": "_NomSociété_",
+    "legal_structure": "_StructureJuridiqueSociété_",
+    "capital": "_CapitalSociété",
+    "rcs_city": "_VilleRCSSociété",
+    "rcs_number": "_RCS XXX XXX XXX XXX_",
+    "address": "_AdresseSiegeSocialSociété_",
+    "holder_name": "_NomReprésentantLégal_",
+    "holder_role": "_QualitéReprésentantLégal_",
+    "author": "_NomAuteurDuCode_",
+    "url": "http://url-nomsociete.com",
+    "url_nice": "_url-NomSociété.com_",
+    "hourly_rate": 130,
+    "hourly_rate_legend": "euros HT / heures"
+  },
+  "client": {
     "description": "La société X, Société par actions simplifiée au capital de  Y euros, dont le siège social est sis PAR LÀ, immatriculée sous le n° Z, représentée par A,"
-  }
-, "contract": {
-    "duration": 50
-  , "duration_unit": "heures"
-  , "prepayment_novat": null
-  , "prepayment_vat": null
-  }
-, "cgv": {
+  },
+  "contract": {
+    "duration": 50,
+    "duration_unit": "heures",
+    "prepayment_novat": null,
+    "prepayment_vat": null
+  },
+  "cgv": {
     "start_date": "1er janvier 2013"
-  }
-, "cga": {
+  },
+  "cga": {
     "start_date": "1er janvier 2013"
   }
 }

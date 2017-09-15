@@ -1,0 +1,34 @@
+{
+  "name": "legal",
+  "version": "1.0.0",
+  "description": "## Utilisation",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-handlebars": "latest",
+    "gulp-markdown": "^1.2.0",
+    "gulp-util": "latest",
+    "gulp-wrap": "latest",
+    "html-pdf": "^2.1.0",
+    "inquirer": "^3.2.1",
+    "through2": "latest",
+    "wkhtmltopdf": "^0.3.4",
+    "yargs": "^8.0.2",
+    "handlebars": "latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eoko/legal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eoko/legal/issues"
+  },
+  "homepage": "https://github.com/eoko/legal#readme"
+}

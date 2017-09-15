@@ -1,4 +1,8 @@
-# Conditions Générales de vente de {{company.name}} Applicables à compter du {{cgv.start_date}}
+# Conditions Générales de vente de {{company.name}} 
+
+<center><em>Applicables à compter du {{cgv.start_date}}</em></center>
+<hr/>
+
 
 ## Article 1. Champ d’application
 
@@ -71,7 +75,9 @@ aucune obligation de maintenance ou d’assistance à l’utilisation.
 Le Client s’engage à réagir dans les meilleurs délais à toute demande de
 {{company.name}} relative à la réalisation de la prestation. Le Client
 reconnaît que son implication et sa collaboration sont nécessaires pour la
-bonne exécution du contrat. Tout retard ou défaut de diligence du Client pourra
+bonne exécution du contrat. 
+
+Tout retard ou défaut de diligence du Client pourra
 entraîner un report de livraison de {{company.name}} supérieur d’une semaine à
 la durée dudit retard ou défaut de diligence du Client, sans que ce report ne
 puisse constituer une faute de {{company.name}} ou un préjudice pour le Client.
@@ -84,8 +90,8 @@ Livrable fait en conséquence l’objet de plusieurs Itérations.
 
 Chaque Itération est soumise au plan de travail suivant :
 
-Les parties conviennent de la durée de l’Itération (généralement entre 5 et 10
-jours ouvrés).
+Les parties peuvent convenir de la durée de l’Itération (généralement entre 5 et 10
+jours ouvrés). Sans précision, une itération aura pour duréee 10 jours ouvrés.
 
 Le Client définit les spécifications fonctionnelles du projet dans un document
 appelé Icebox.
@@ -98,7 +104,7 @@ Le Client détermine les priorités parmi les fonctionnalités techniques défin
 par {{company.name}}.
 
 Le cycle de développement peut commencer lorsque les parties considèrent que la
-charge de travail est suffisante pour l’Itération.
+charge de travail est suffisante pour l’Itération. Sauf avis 
 
 Aux termes de l’Itération, le Livrable est livré au Client et réceptionné
 conformément à l’article 6 des présentes.
